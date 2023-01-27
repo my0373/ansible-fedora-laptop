@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+-  name: Setup Git
+   ansible.builtin.import_playbook: git.yml
+-  name: Setup ZSH
+   ansible.builtin.import_playbook: zsh.yml
+-  name: Setup VIM
+   ansible.builtin.import_playbook: vim.yml
+-  name: Setup Chrome
+   ansible.builtin.import_playbook: chrome.yml
