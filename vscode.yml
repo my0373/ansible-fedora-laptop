@@ -1,0 +1,16 @@
+---
+- hosts: localhost
+  vars:
+    editor_fontsize: 24
+    window_zoomlevel: 2
+    # vscode_theme: "Monokai"
+    # vscode_theme: "Kimbie Dark"
+    vscode_theme: "Monokai Dimmed"
+    # vscode_theme: "Abyss"
+    terminal_fontsize: 12
+
+  tasks:
+    - name: Install VSCode
+      import_role:
+        name: my0373.fedora.vscode
+
