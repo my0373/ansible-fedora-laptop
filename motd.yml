@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Configure the system Message Of The Day
+      import_role:
+        name: my0373.fedora.motd
+
