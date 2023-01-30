@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Install Ansible System Roles
+      import_role:
+        name: my0373.fedora.system_roles
+
