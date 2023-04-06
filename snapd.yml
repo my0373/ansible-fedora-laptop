@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Install Snapd 
+      import_role:
+        name: my0373.fedora.snapd

@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Install JQ YQ 
+      import_role:
+        name: my0373.fedora.jqyq
