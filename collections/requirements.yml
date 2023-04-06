@@ -1,5 +1,5 @@
 ---
 collections:
-  - name: https://gitlab.com/my0373-ansible/playbooks/ansible-fedora-laptop.git
+  - name: https://gitlab.com/my0373-ansible/collections/my0373/ansible-my0373-fedora.git
     type: git
     version: main
