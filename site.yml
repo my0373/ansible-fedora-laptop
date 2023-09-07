@@ -8,3 +8,25 @@
    ansible.builtin.import_playbook: vim.yml
 -  name: Setup Chrome
    ansible.builtin.import_playbook: chrome.yml
+-  name: Install Fonts
+   ansible.builtin.import_playbook: fonts.yml
+-  name: Install Snap
+   ansible.builtin.import_playbook: snapd.yml
+-  name: Install JQ/YQ
+   ansible.builtin.import_playbook: jqyq.yml
+-  name: Install KVM
+   ansible.builtin.import_playbook: kvm.yml
+-  name: Install MOTD
+   ansible.builtin.import_playbook: motd.yml
+-  name: Install NordVPN
+   ansible.builtin.import_playbook: nordvpn.yml
+-  name: Install RPMFusion
+   ansible.builtin.import_playbook: rpmfusion.yml
+-  name: Install Fedora System Roles
+   ansible.builtin.import_playbook: system-roles.yml
+-  name: Install TMUX
+   ansible.builtin.import_playbook: tmux.yml
+-  name: Install VSCode
+   ansible.builtin.import_playbook: vscode.yml
+-  name: Install latest patches (without a reboot)
+   ansible.builtin.import_playbook: osupdate.yml
