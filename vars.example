@@ -1,0 +1,3 @@
+## The default path variable for the .zshrc file.
+zsh_path: "$HOME/bin:/usr/local/bin:~/.local/bin:/home/dave:$PATH"
+
