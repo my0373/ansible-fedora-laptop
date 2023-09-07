@@ -2,6 +2,8 @@
 - hosts: localhost
   tasks:
     - name: Install ZSH
-      import_role:
+      ansible.builtin.include_role:
         name: my0373.fedora.zsh
+      vars:
+        zsh_path: "$HOME/bin:/usr/local/bin:~/.local/bin:$PATH"
 
